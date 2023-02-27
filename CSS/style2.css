@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper {
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#algo-expert {
+    width: 75%;
+    height: 50px;
+    background-color: #626ee3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+
+
+}
+
+#systems-expert {
+    background-color: #890023;
+    color: white;
+    width: 50%;
+    height: 50px;
+    order: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#ml-expert {
+    width: 30%;
+    height: 75px;
+    background-color: #f37f1b;
+    color: white;
+    order: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    align-self: flex-start;
+    margin-right: 10px;
+}
+
+#frontend-expert {
+    background-color: #11967e;
+    color: white;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#programming-expert {
+    background-color: #f21b3f;
+    color: white;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
